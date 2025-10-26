@@ -1,0 +1,219 @@
+2025-10-26 00:49:49 - elysia_bot - ERROR - SYSTEM_ERROR: payment_creation failed after 0.00s - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:49 - elysia_bot - ERROR - SYSTEM_ERROR: Error in wrapper - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:49 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 509998285 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:49 - elysia_bot - ERROR - SYSTEM_ERROR:  - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:49 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 509998285 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:52 - elysia_bot - ERROR - SYSTEM_ERROR: payment_creation failed after 0.00s - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:52 - elysia_bot - ERROR - SYSTEM_ERROR: Error in wrapper - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:52 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 509998285 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:52 - elysia_bot - ERROR - SYSTEM_ERROR:  - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:52 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 509998285 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:55 - elysia_bot - ERROR - SYSTEM_ERROR: payment_creation failed after 0.00s - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:55 - elysia_bot - ERROR - SYSTEM_ERROR: Error in wrapper - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:55 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 509998285 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:55 - elysia_bot - ERROR - SYSTEM_ERROR:  - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:49:55 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 509998285 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 01:25:16 - elysia_bot - ERROR - SYSTEM_ERROR: YooMoney API error: 401 - Client error '401 ' for url 'https://api.yookassa.ru/v3/payments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 71, in _make_request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 ' for url 'https://api.yookassa.ru/v3/payments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-26 01:25:16 - elysia_bot - ERROR - SYSTEM_ERROR: Failed to create payment - YooMoney API error: 401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 71, in _make_request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 ' for url 'https://api.yookassa.ru/v3/payments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 114, in create_payment
+    response_data = await self._make_request("POST", "/payments", data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 76, in _make_request
+    raise Exception(f"YooMoney API error: {e.response.status_code}")
+Exception: YooMoney API error: 401
+2025-10-26 01:25:16 - elysia_bot - ERROR - SYSTEM_ERROR: Failed to create payment for user 8020256252 - YooMoney API error: 401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 71, in _make_request
+    response.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 ' for url 'https://api.yookassa.ru/v3/payments'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/payment_system.py", line 99, in create_payment
+    payment_response = await client.create_payment(payment_request)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 114, in create_payment
+    response_data = await self._make_request("POST", "/payments", data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/yoomoney.py", line 76, in _make_request
+    raise Exception(f"YooMoney API error: {e.response.status_code}")
+Exception: YooMoney API error: 401
+2025-10-26 01:48:28 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401

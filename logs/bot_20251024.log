@@ -1,0 +1,132 @@
+2025-10-24 02:09:02 - elysia_bot - INFO - Elysia AI Bot started - Version 2.0.0
+2025-10-24 02:09:14 - elysia_bot - INFO - Elysia AI Bot started - Version 2.0.0
+2025-10-24 02:09:37 - elysia_bot - INFO - User 509998285 sent text: Dima...
+2025-10-24 02:09:39 - elysia_bot - INFO - API deepseek: 401 (0.63s)
+2025-10-24 02:09:39 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 02:09:39 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.64s
+2025-10-24 02:10:05 - elysia_bot - INFO - Elysia AI Bot started - Version 2.0.0
+2025-10-24 02:11:30 - elysia_bot - INFO - User 8020256252 sent text: Jh...
+2025-10-24 02:11:30 - elysia_bot - INFO - User 8020256252 sent text: Jh...
+2025-10-24 02:11:31 - elysia_bot - INFO - API deepseek: 401 (0.46s)
+2025-10-24 02:11:31 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 02:11:31 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.46s
+2025-10-24 02:11:31 - elysia_bot - INFO - API deepseek: 401 (0.46s)
+2025-10-24 02:11:31 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 02:11:31 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.46s
+2025-10-24 16:17:01 - elysia_bot - INFO - User 8020256252 executed command: /start
+2025-10-24 16:17:24 - elysia_bot - INFO - User 8020256252 executed command: /start
+2025-10-24 16:18:57 - elysia_bot - INFO - User 8020256252 sent text: J...
+2025-10-24 16:19:00 - elysia_bot - INFO - API deepseek: 401 (0.90s)
+2025-10-24 16:19:00 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-24 16:19:00 - elysia_bot - INFO - PERFORMANCE: llm_request took 1.05s
+2025-10-24 16:19:03 - elysia_bot - INFO - User 8020256252 pressed button: premium_subscription
+2025-10-24 16:19:51 - elysia_bot - ERROR - SYSTEM_ERROR: payment_creation failed after 0.00s - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-24 16:19:51 - elysia_bot - ERROR - SYSTEM_ERROR: Error in wrapper - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-24 16:19:51 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 8020256252 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-24 16:19:51 - elysia_bot - ERROR - SYSTEM_ERROR:  - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-24 16:19:51 - elysia_bot - ERROR - SYSTEM_ERROR: Unknown error for user 8020256252 - payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 103, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/error_handler.py", line 136, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/test/Desktop/ElysiaAI project/bot/logger.py", line 150, in wrapper
+    result = await func(*args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^
+TypeError: payment_confirmation_handler() got an unexpected keyword argument 'dispatcher'
+2025-10-26 00:42:15 - elysia_bot - INFO - User 509998285 sent text: Дима...
+2025-10-26 00:42:17 - elysia_bot - INFO - API deepseek: 401 (0.57s)
+2025-10-26 00:42:17 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-26 00:42:17 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.58s
+2025-10-26 00:42:24 - elysia_bot - INFO - User 509998285 sent text: Дима...
+2025-10-26 00:42:25 - elysia_bot - INFO - API deepseek: 401 (0.45s)
+2025-10-26 00:42:25 - elysia_bot - ERROR - SYSTEM_ERROR: HTTP error 401 - Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "/Users/test/Desktop/ElysiaAI project/bot/llm.py", line 267, in ask_llm
+    r.raise_for_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/httpx/_models.py", line 763, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.deepseek.com/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-10-26 00:42:25 - elysia_bot - INFO - PERFORMANCE: llm_request took 0.45s
